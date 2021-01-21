@@ -1,0 +1,22 @@
+{
+  "name": "davidadams",
+  "version": "1.0.0",
+  "description": "A UI designer Website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [
+    "UI",
+    "UX",
+    "Designer",
+    "Portfolio"
+  ],
+  "author": "Efosa Uyi-Idahor",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
