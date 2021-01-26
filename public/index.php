@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body class="bg-white font-body font-normal">
-    <div class="mx-16">
+    <div class="mx-36">
         <header class=""> <!--header start-->
            <?php include("navbar.php") ?>
             <div class="flex items-center">

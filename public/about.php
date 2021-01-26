@@ -7,7 +7,7 @@
     <title>About page</title>
 </head>
 <body class="font-body bg-white text-sm">
-    <div class="mx-16">
+    <div class="mx-36">
         <?php include("navbar.php") ?>
         <main>
             <section>
