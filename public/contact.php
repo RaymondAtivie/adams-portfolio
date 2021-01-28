@@ -10,10 +10,13 @@
     <div class="mx-36">
         <?php include("navbar.php") ?>
         <main>
-            <section class="max-w-md m-auto text-brand-gray-medium text-sm">
+            <section class="max-w-md m-auto text-brand-gray-medium text-sm font-semibold">
                 <div class="mt-12">
-                    <h3 class="mb-5 text-center text-xl font-semibold">Let's work together</h3>
-                    <p class="mb-10 text-center">You have an idea in your mind and looking for execution with creative perfect designs, Let’s build your idea and your brand an exposure</p>
+                    <div class="flex items-end justify-center mb-5">
+                        <h3 class="text-xl font-semibold ">Let's work together</h3>
+                        <img class="" src="img/work.png" alt="Work Icon">
+                    </div>
+                    <p class="mb-20 text-center">You have an idea in your mind and looking for execution with creative perfect designs, Let’s build your idea and your brand an exposure</p>
                 </div>
                 <div class="mb-5">
                     <label class="block" for="name">Your name (required)</label>
@@ -31,8 +34,8 @@
                     <label class="block" for="message">Your message</label>
                     <textarea class="w-full bg-transparent border border-gray-400 py-2 rounded-sm" name="message" id="" cols="30" rows="10"></textarea>
                 </div>
-                <div class="mb-16">
-                    <button class="rounded-full bg-brand-yellow-light px-14 py-2 text-white">Send</button>
+                <div class="mb-20">
+                    <button class="rounded-full bg-brand-orange px-14 py-2 text-white">Send</button>
                 </div>
             </section>
         </main>

@@ -7,6 +7,7 @@ module.exports = {
         brand: {
           pink: "#FFF1E8",
           red: "#AD000A",
+          orange: "#F46523",
           blue: {
             light: "#286ce5",
             dark: "#070628"
@@ -18,7 +19,7 @@ module.exports = {
           },
           yellow: {
             light: "#F69219"
-          }             
+          }          
         },
       },
       fontFamily: {
