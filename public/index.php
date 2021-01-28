@@ -10,7 +10,7 @@
     <div class="max-w-4xl mx-auto px-6">
         <header class="mb-32"> <!--header start-->
            <?php include("navbar.php") ?>
-            <div class="flex items-center">
+            <div class="flex items-center mt-32">
                 <div class="w-1/2">
                     <div>
                         <img src="img/hi.png" alt="Hi Image">
