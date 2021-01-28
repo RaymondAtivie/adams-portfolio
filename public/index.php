@@ -6,8 +6,8 @@
     <title>David Adams</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
-<body class="bg-white font-body font-normal">
-    <div class="mx-36">
+<body class="bg-brand-black font-body font-normal">
+    <div class="max-w-6xl mx-auto px-6">
         <header class="mb-32"> <!--header start-->
            <?php include("navbar.php") ?>
             <div class="flex items-center">
@@ -16,13 +16,13 @@
                         <img src="img/hi.png" alt="Hi Image">
                     </div>
                     <div class="text-sm">
-                        <p class="pb-4 font-semibold text-base text-gray-500">My name is Adams David and I am a UI/UX Designer.</p>
-                        <div class="pb-4 mb-8 font-semibold tracking-wider text-brand-gray-dark">
-                        Over 2+ years of hands-on experience on UI/UX design and Interaction design expertise. I employ my creative, technical, and analytical prowess to craft unique ideas that delight users, tell compelling stories, and help drive business growth.
+                        <p class="pb-4 text-gray-400">My name is Adams David and I am a UI/UX Designer.</p>
+                        <div class="pb-4 mb-8 tracking-wider text-white">
+                        Over 3+ years of hands-on experience on UI/UX design and Interaction design expertise. I employ my creative, technical, and analytical prowess to craft unique ideas that delight users, tell compelling stories, and help drive business growth.
                         </div>
                         <div class="">
                             <button class="bg-brand-orange rounded-full mr-8 px-8 py-2 text-white">Get in touch</button>
-                            <button class="bg-transparent text-brand-gray-dark font-bold border-b border-brand-orange">Download resume</button>
+                            <button class="bg-transparent text-white border-b border-brand-orange">Download resume</button>
                         </div>
                     </div>
                 </div>
@@ -34,9 +34,9 @@
         <main>
             <section class="">
                 <div class="mb-16">
-                    <h2 class="text-center text-lg text-brand-gray-dark font-semibold mb-1">projects</h2>
+                    <h2 class="text-center text-lg text-white mb-1">Projects</h2>
                     <div class="w-20 m-auto border-t-2 border-brand-orange mb-5"></div>
-                    <p class="text-center text-sm font-semibold text-gray-500">Here are some projects I had worked on for some clients</p>
+                    <p class="text-center text-sm text-white">Here are some projects I had worked on for some clients</p>
                 </div>
                 <div class="flex mb-12">
                     <div class="w-1/2 bg-brand-pink flex items-center justify-center">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center mb-24">
-                    <button class=" border border-brand-orange rounded-full py-2 px-10 text-brand-gray-dark font-bold">more projects</button>
+                    <button class=" border border-brand-orange rounded-full py-2 px-10 text-white">more projects</button>
                 </div>
             </section>
         </main>

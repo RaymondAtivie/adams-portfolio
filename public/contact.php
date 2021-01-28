@@ -6,11 +6,11 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-white font-body">
-    <div class="mx-36">
+<body class="bg-brand-black font-body">
+    <div class="max-w-6xl mx-auto px-6">
         <?php include("navbar.php") ?>
         <main>
-            <section class="max-w-md m-auto text-brand-gray-medium text-sm font-semibold">
+            <section class="max-w-2xl m-auto text-white text-sm">
                 <div class="mt-12">
                     <div class="flex items-end justify-center mb-5">
                         <h3 class="text-xl font-semibold ">Let's work together</h3>
@@ -20,19 +20,19 @@
                 </div>
                 <div class="mb-5">
                     <label class="block" for="name">Your name (required)</label>
-                    <input class="w-full bg-transparent border border-gray-400 py-2 rounded-sm" type="text">
+                    <input class="w-full bg-transparent border border-gray-400 py-2 rounded-lg" type="text">
                 </div>
                 <div class="mb-5">
                     <label class="block" for="email">Email (required)</label>
-                    <input  class="w-full bg-transparent border border-gray-400 py-2 rounded-sm" type="email">
+                    <input  class="w-full bg-transparent border border-gray-400 py-2 rounded-lg" type="email">
                 </div>
                 <div class="mb-5">
                     <label class="block" for="subject">Subject</label>
-                    <input class="w-full bg-transparent border border-gray-400 py-2 rounded-sm" type="text">
+                    <input class="w-full bg-transparent border border-gray-400 py-2 rounded-lg" type="text">
                 </div>
                 <div class="mb-5">
                     <label class="block" for="message">Your message</label>
-                    <textarea class="w-full bg-transparent border border-gray-400 py-2 rounded-sm" name="message" id="" cols="30" rows="10"></textarea>
+                    <textarea class="w-full bg-transparent border border-gray-400 py-2 rounded-lg" name="message" id="" cols="30" rows="10"></textarea>
                 </div>
                 <div class="mb-20">
                     <button class="rounded-full bg-brand-orange px-14 py-2 text-white">Send</button>
