@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700&family=Nunito+Sans:wght@200;300&family=Poppins:wght@400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -12159,6 +12161,10 @@ video {
 
 .font-titleSub{
   font-family: Poppins;
+}
+
+.font-about{
+  font-family: Inter;
 }
 
 .font-thin{
@@ -44530,6 +44536,10 @@ video {
     font-family: Poppins;
   }
 
+  .sm\:font-about{
+    font-family: Inter;
+  }
+
   .sm\:font-thin{
     font-weight: 100;
   }
@@ -76819,6 +76829,10 @@ video {
 
   .md\:font-titleSub{
     font-family: Poppins;
+  }
+
+  .md\:font-about{
+    font-family: Inter;
   }
 
   .md\:font-thin{
@@ -109112,6 +109126,10 @@ video {
     font-family: Poppins;
   }
 
+  .lg\:font-about{
+    font-family: Inter;
+  }
+
   .lg\:font-thin{
     font-weight: 100;
   }
@@ -141403,6 +141421,10 @@ video {
     font-family: Poppins;
   }
 
+  .xl\:font-about{
+    font-family: Inter;
+  }
+
   .xl\:font-thin{
     font-weight: 100;
   }
@@ -173692,6 +173714,10 @@ video {
 
   .\32xl\:font-titleSub{
     font-family: Poppins;
+  }
+
+  .\32xl\:font-about{
+    font-family: Inter;
   }
 
   .\32xl\:font-thin{

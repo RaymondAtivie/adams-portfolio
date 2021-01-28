@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-brand-black font-body">
-    <div class="max-w-6xl mx-auto px-6">
+    <div class="max-w-4xl mx-auto px-6">
         <?php include("navbar.php") ?>
         <main>
             <section class="max-w-2xl m-auto text-white text-sm">

@@ -26,7 +26,8 @@ module.exports = {
       fontFamily: {
         body: ["Nunito Sans"],
         titleMain: ["Abhaya Libre"],
-        titleSub: ["Poppins"]
+        titleSub: ["Poppins"],
+        about: ["Inter"]
       }
     },
   },
