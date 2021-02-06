@@ -17,7 +17,7 @@
                     </div>
                     <div class="text-sm">
                         <p class="pb-4 text-gray-400">My name is Adams David and I am a UI/UX Designer.</p>
-                        <div class="pb-4 mb-8 tracking-wider text-white">
+                        <div class="pb-4 mb-8 tracking-wider text-white leading-7">
                         Over 3+ years of hands-on experience on UI/UX design and Interaction design expertise. I employ my creative, technical, and analytical prowess to craft unique ideas that delight users, tell compelling stories, and help drive business growth.
                         </div>
                         <div class="">
