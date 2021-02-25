@@ -8,51 +8,55 @@
 </head>
 <body class="text-white bg-brand-black font-body">   
     <div class="">
-        <div class="relative bg-black">
+        <div class="relative px-5 bg-black md:px-0">
             <div class="max-w-6xl mx-auto">
                 <header class="">
                     <?php include("navbar.php") ?>
-                    <div class="flex items-center justify-between">
-                        <div class="w-2/4">
-                            <h3 class="font-semibold">One Page E-Commerce</h3>
-                            <h3 class="mb-8 font-semibold">Web UI Design</h3>
-                            <h1 class="font-extrabold text-7xl ">SHOPLIFT</h1>
-                            <h2 class="mb-8 text-2xl font-semibold">UX Case Study</h2>
-                            <p class="mb-8 text-sm font-semibold">Optimizing customer experience in <br> order to improve sales.</p>
-                            <p class="text-sm font-semibold">Egromomics, Simplicity, Consistency</p>
+                    <div class="items-center justify-between md:flex">
+                        <div class="md:w-2/4">
+                            <h3 class="text-sm font-semibold md:text-base">One Page E-Commerce</h3>
+                            <h3 class="mb-8 text-sm font-semibold md:text-base">Web UI Design</h3>
+                            <h1 class="text-6xl font-extrabold text-center md:text-7xl md:text-left">SHOPLIFT</h1>
+                            <h2 class="mb-8 text-lg font-semibold text-center md:text-2xl md:text-left">UX Case Study</h2>
+                            <p class="hidden mb-8 text-xs font-semibold md:text-sm md:block">Optimizing customer experience in <br> order to improve sales.</p>
+                            <p class="hidden text-xs font-semibold md:text-sm md:block">Egromomics, Simplicity, Consistency</p>
                         </div>
-                        <div class="w-2/4 my-8">
+                        <div class="w-96 md:w-2/4 md:my-8">
                             <img src="img/shoplift.png" alt="Shoplift Project Photo" class="w-full">
+                        </div>
+                        <div class="flex justify-between space-x-3 md:hidden">
+                            <p class="text-xs font-semibold md:text-sm">Optimizing customer experience in order to improve sales.</p>
+                            <p class="text-xs font-semibold md:text-sm">Egromomics, Simplicity, Consistency</p>
                         </div>
                     </div>
                 </header>
-                <div class="absolute bottom-0 left-0 z-10"><img src="img/bg-banner1.png" alt="Background orange box"></div>
-                <div class="absolute bottom-0 right-0 z-10"><img src="img/bg-banner2.png" alt="Background orange box"></div>
+                <div class="absolute left-0 z-10 w-20 h-20 bottom-9 md:w-0 md:h-0"><img src="img/bg-banner1.png" alt="Background orange box"></div>
+                <div class="absolute right-0 z-10 w-20 h-20 bottom-9 md:w-0 md:h-0"><img src="img/bg-banner2.png" alt="Background orange box"></div>
             </div>
         </div>     
-        <main class="max-w-6xl mx-auto ">
+        <main class="max-w-6xl px-5 mx-auto md:px-0">
             <section>
-                <div class="flex justify-between my-24">
-                    <div class="w-1/4 font-bold">
+                <div class="justify-between my-16 md:my-24 md:flex">
+                    <div class="flex justify-between text-base font-extrabold md:text-lg md:w-1/4 md:block">
                         <div class="">
-                            <div class="text-lg">My Role</div>
-                            <div class="mt-2 text-sm">UX Researcher</div>
-                            <div class="mt-2 text-sm">UI Designer</div>
+                            <div class="">My Role</div>
+                            <div class="mt-2 text-xs md:text-sm">UX Researcher</div>
+                            <div class="mt-2 text-xs md:text-sm">UI Designer</div>
                         </div>
-                        <div class="mt-8">
-                            <div class="text-lg">Type</div>
-                            <div class="mt-2 text-sm">Project</div>
+                        <div class="md:mt-8">
+                            <div class="">Type</div>
+                            <div class="mt-2 text-xs md:text-sm">Project</div>
                         </div>
-                        <div class="mt-8">
-                            <div class="text-lg">Tool</div>
-                            <div class="mt-2 text-sm">Figma</div>
+                        <div class="md:mt-8">
+                            <div class="">Tool</div>
+                            <div class="mt-2 text-xs md:text-sm">Figma</div>
                         </div>
-                        <div class="mt-8">
-                            <div class="text-lg">Duration</div>
-                            <div class="mt-2 text-sm">One week</div>
+                        <div class="md:mt-8">
+                            <div class="">Duration</div>
+                            <div class="mt-2 text-xs md:text-sm">One week</div>
                         </div>
                     </div>
-                    <div class="w-3/4 text-justify">
+                    <div class="mt-10 text-justify md:w-3/4 md:mt-0">
                         <div class="inline-block text-2xl font-bold border-b-2 border-brand-orange">Introduction</div>
                         <div class="text-sm leading-loose">
                             <p class="mt-8">Trying to search for a particular style or design over here in our community has left our culture in regards to online vendors 
@@ -71,23 +75,25 @@
             </section>
             
             <section>
-                <div class="my-24 bg-black p-14">
-                    <div class="flex items-center">
-                        <div class="w-1/4">
-                            <div class="flex items-center mb-3 space-x-3">
+                <div class="p-6 my-16 bg-black md:my-24 md:p-14">
+                    <div class="items-center block md:flex">
+                        <div class="md:w-1/4">
+                            <div class="flex items-center justify-center mb-3 space-x-3 md:justify-start">
                                 <div><img src="img/nigeria-flag.jpg" alt="Nigeria Flag"></div>
                                 <div class="text-xl font-bold">Nigeria</div>
                             </div>
-                            <div>Population</div>
-                            <div class="mt-4">
-                                <div class="text-xl font-bold">206 million</div>
-                                <div class="text-sm">(2020)</div>
+                            <div class="flex justify-around my-5 md:block md:my-0">
+                                <div>Population</div>
+                                <div class="flex items-center md:mt-3 md:block">
+                                    <div class="text-xl font-bold">206 million</div>
+                                    <div class="text-sm">(2020)</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex w-3/4">
+                        <div class="flex md:w-3/4">
                             <div class="w-1/3">
                                 <div class="leading-tight">
-                                    <div>Fashion Websitee</div>
+                                    <div>Fashion Website</div>
                                     <div class="text-sm">(visits) e-commerce</div>
                                 </div>
                                 <div class="mt-5 text-xl font-bold">1.90%</div>
@@ -99,7 +105,7 @@
                                 </div>
                                 <div class="mt-5 text-xl font-extrabold">32.8%</div>
                             </div>
-                            <div class="w-1/3">Less than 10 person <br> visit a fashion website</div>
+                            <div class="w-1/3 text-sm md:text-base">Less than 10 person <br> visit a fashion website</div>
                         </div>
                     </div>
                 </div>
@@ -110,10 +116,10 @@
                     <div class="inline-block text-2xl font-bold border-b-2 border-brand-orange">Ideation</div>
                     <div class="">
                         <div class="mt-5 font-bold">a. <span class="text-lg">User Story</span></div>
-                        <p class="mt-3 text-sm">For my design solution, the key experience is the “Style/Design Catolgue”. 
+                        <p class="mt-3 text-sm text-justify">For my design solution, the key experience is the “Style/Design Catolgue”. 
                             This is also the least viable feature the product can offer, other features on accessing the e-commerce function is also included in the design setup.
                         </p>
-                        <div class="w-2/3 mx-auto my-16">
+                        <div class="mx-auto my-16 md:w-2/3">
                             <div class="mb-3 font-bold">Epic: SHOPLIFT</div>
                             <div>
                                 <table class="text-sm table-fixed">
@@ -162,7 +168,7 @@
                     </div>
                     <div>
                         <div class="font-bold">b. <span class="text-lg">Wireframing</span></div>
-                        <p class="mt-3 text-sm">Once I got an understanding of the users, their task and stories, I started sketching design solutions. 
+                        <p class="mt-3 text-sm text-justify">Once I got an understanding of the users, their task and stories, I started sketching design solutions. 
                             The process of sketching enables me to visualize different ideas and try out content placement.
                         </p>
                     </div>
@@ -170,53 +176,53 @@
             </section>
 
             <section>
-                <div class="my-24">
+                <div class="my-16 md:my-24">
                     <div class="inline-block text-2xl font-bold border-b-2 border-brand-orange">Visual Design</div>
                     <div class="">
                         <div class="my-5 text-lg font-bold">Brand Colors</div>
-                        <p>The mood and emotions to be evoked from the application are those of calm, trendy, elegant,
+                        <p class="text-justify">The mood and emotions to be evoked from the application are those of calm, trendy, elegant,
                             bold and overall uniqueness. As a UI Designer, I can translate these type of colors in unique ways. 
                         </p>
-                        <div class="flex items-center justify-between px-6 py-10 bg-black bg-opacity-25 rounded my-14">
-                            <div class="">
+                        <div class="flex flex-wrap items-center justify-between px-6 py-10 bg-black bg-opacity-25 rounded my-14">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #1F2223;"></div>
                                 <div>#1F2223</div> 
                             </div>
-                            <div class="">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #5A5A5A;"></div>
                                 <div>#5A5A5A</div>
                             </div>
-                            <div class="">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #1A1C1B;"></div>
                                 <div>#1A1C1B</div>
                             </div>
-                            <div class="">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #060606;"></div>
                                 <div>#060606</div>
                             </div>
-                            <div class="">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #5E5E5E;"></div>
                                 <div>#5E5E5E</div>
                             </div>
-                            <div class="">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #313538;"></div>
                                 <div>#313538</div>
                             </div>
-                            <div class="">
+                            <div class="my-3 md:my-0">
                                 <div class="w-20 h-16 mb-2 rounded" style="background-color: #000000;"></div>
                                 <div>#000000</div>
                             </div>
                         </div>
                         <div class="text-sm text-center">Brand Color Interpretation</div>
                     </div>
-                    <div class="my-6">
+                    <div class="my-12 md:my-6">
                         <div class="my-5 text-lg font-bold">Typography</div>
-                        <div class="flex justify-between w-full px-6 py-10 text-xs text-gray-400 bg-black bg-opacity-25 rounded space-x-14 my-14">
-                            <div class="w-4/12">
-                                <div class="text-4xl tracking-widest" style="font-family: Georgia, 'Times New Roman', Times, serif;">SHOPLIFT</div>
-                                <div class="mt-5 mb-10"><span class="text-xl font-bold">Menu</span>(navigation)</div>
-                                <div class="mb-5 text-2xl font-bold">Subheadings</div>
-                                <div>Text (h1, h2, h3, h4, h5, h6)</div>
+                        <div class="flex justify-between w-full px-3 py-5 my-0 space-x-6 text-xs text-gray-400 bg-black bg-opacity-25 rounded md:py-10 md:px-6 md:my-14 md:space-x-14">
+                            <div class="w-2-12 md:w-4/12">
+                                <div class="-mt-1 text-2xl tracking-wide md:-mt-0 md:tracking-widest md:text-4xl" style="font-family: Georgia, 'Times New Roman', Times, serif;">SHOPLIFT</div>
+                                <div class="mb-10 mt-7 md:mt-5"><span class="text-xl font-bold">Menu</span>(navigation)</div>
+                                <div class="mt-48 mb-5 text-lg font-bold md:mt-0 md:text-2xl">Subheadings</div>
+                                <div class="mt-16 md:mt-0">Text (h1, h2, h3, h4, h5, h6)</div>
                             </div>
                             <div class="w-5/12">
                                 <div>Text Logo</div>
@@ -224,10 +230,10 @@
                                 <p class="my-6">Featured Products, Shopping with Us, Brands</p>
                                 <p>Body text and typo differential using  same font name </p>
                             </div>
-                            <div class="w-3/12">
+                            <div class="w-5/12 md:w-3/12">
                                 <div class="">Abhaya Libre Medium, 50px, 5 line spacing</div>
-                                <div class="mt-12 mb-6">Archivo, Regular, 24px, 0 line spacing</div>
-                                <div class="mt-12 mb-8">Roboto, Medium, 28px, 3 line spacing</div>
+                                <div class="mt-1 mb-6 md:mt-12">Archivo, Regular, 24px, 0 line spacing</div>
+                                <div class="mb-8 mt-36 md:mt-12">Roboto, Medium, 28px, 3 line spacing</div>
                                 <div class="">Roboto, Regular(12px, 14px, 15px, 17px, 24px) Medium(12px, 14px, 15px, 17px, 24px)</div>
                             </div>
                         </div>
@@ -262,10 +268,10 @@
                             <img src="img/monitor-with-shrubs.png" alt="Monitor with trees" class="w-full">
                         </div>
                     </div>
-                    <div class="absolute z-10 inset-36"><img src="img/Line 14.png" alt="Background Line 3"></div>
-                    <div class="absolute z-10 left-0.5 -bottom-44"><img src="img/Line 15.png" alt="Background Line 4"></div>
-                    <div class="absolute z-10 -bottom-16 right-1"><img src="img/Line 16.png" alt="Background Line 5"></div>
-                    <div class="absolute z-10 bottom-20 left-96">
+                    <div class="absolute z-10 hidden inset-36 md:block"><img src="img/Line 14.png" alt="Background Line 3"></div>
+                    <div class="absolute z-10 left-0.5 -bottom-44 hidden md:block"><img src="img/Line 15.png" alt="Background Line 4"></div>
+                    <div class="absolute z-10 hidden -bottom-16 right-1 md:block"><img src="img/Line 16.png" alt="Background Line 5"></div>
+                    <div class="absolute bottom-0 z-10 w-24 md:bottom-20 left-32 md:left-96">
                         <div><img src="img/mockup.png" alt="Mock Up reversed"></div>
                         <div><img src="img/mockup-norm.png" alt="Mock Up"></div>
                         <div><img src="img/mockup.png" alt="Mock Up reversed"></div>
@@ -273,7 +279,7 @@
                         <div><img src="img/mockup.png" alt="Mock Up reversed"></div>
                         <div><img src="img/mockup-norm.png" alt="Mock Up"></div>
                     </div>
-                    <div class="absolute z-10 top-48 left-96">
+                    <div class="absolute z-10 w-24 left-32 top-52 md:top-48 md:left-96">
                         <div><img src="img/mockup.png" alt="Mock Up reversed"></div>
                         <div><img src="img/mockup-norm.png" alt="Mock Up"></div>
                         <div><img src="img/mockup.png" alt="Mock Up reversed"></div>
@@ -297,13 +303,13 @@
                     </p>
                 </div>
             </section>
-            <div class="text-4xl font-bold tracking-wide text-center text-brand-gray-light">Thank you for your time</div>
+            <div class="text-3xl font-extrabold tracking-wide text-center md:text-4xl text-brand-gray-light">Thank you for your time</div>
             
             <section>
-                <div class="flex items-center justify-center space-x-8 my-36">
-                    <div class="uppercase">
+                <div class="flex items-center justify-center my-24 space-x-4 md:space-x-8 md:my-36">
+                    <div class="text-sm uppercase">
                         <div>Next Project</div>
-                        <div class="my-5 text-xl font-bold">Cash Exchange</div>
+                        <div class="my-5 text-lg font-bold md:text-xl">Cash Exchange</div>
                         <div>View All</div>
                     </div>
                     <div>
@@ -315,7 +321,7 @@
                 </div>
             </section>
         </main>
-        <div class="mx-36">         
+        <div class="">         
             <?php include("footer.php") ?>
         </div>
     </div>
