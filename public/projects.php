@@ -24,7 +24,7 @@
                         <div class="w-96 md:w-2/4 md:my-8">
                             <img src="img/shoplift.png" alt="Shoplift Project Photo" class="w-full">
                         </div>
-                        <div class="flex justify-between space-x-3 md:hidden">
+                        <div class="flex justify-between mb-1 space-x-3 md:hidden">
                             <p class="text-xs font-semibold md:text-sm">Optimizing customer experience in order to improve sales.</p>
                             <p class="text-xs font-semibold md:text-sm">Egromomics, Simplicity, Consistency</p>
                         </div>
